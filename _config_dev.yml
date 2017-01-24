@@ -1,0 +1,11 @@
+# even if you plan to use a different baseurl on production
+# you must use a blank baseurl with browser-sync
+# baseurl: ""
+baseurl: ""
+
+minify_html: false
+
+# Conversion
+incremental: true
+
+env: "development"

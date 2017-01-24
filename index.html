@@ -1,0 +1,13 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+title: FizzyMinotaur51 Lag Cheater
+---
+
+{% for video in site.data.videos %}
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ video.id }}?rel=0" allowfullscreen></iframe>
+</div>
+{% endfor %}

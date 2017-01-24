@@ -1,0 +1,73 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: FizzyMinotaur51 is a lag cheater and scammer on Xbox One
+email: FizzyMinotaur51LagCheat@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Gamertag FizzyMinotaur51 on Xbox One is a scammer and lags out on Madden /
+  MUT 15. Here's video proof.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+minify_html: true
+
+url: "http://FizzyMinotaur51-lag-cheat.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+
+
+
+
+# Outputting
+permalink:        "/blog/:year/:title/"
+paginate_path:    "/blog/page:num"
+paginate:         5
+
+# Exclude files from jekyll build
+exclude:
+  - "bower.json"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "gulpfile.js"
+  - "LICENSE.md"
+  - "node_modules"
+  - "npm-debug.log"
+  - "package.json"
+  - "README.md"
+  - "project.sh"
+  - "provision.sh"
+  - "Vagrantfile"
+  - "bower_components"
+  - "index-critical.html"
+
+# Verification Codes
+google-verification:
+
+# Site Branding
+branding:
+  theme_color_primary: ""
+
+# Analytics
+analytics:
+  google: ""
+  gtm: ""
+
+# Cache Busting
+# Update this value to bust the cache on production server
+version_cache: "00000001"
