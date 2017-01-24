@@ -1,0 +1,23 @@
+{
+  "name": "fizzyminotaur51-lag-cheat",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "FizzyMinotaur51LagCheat@gmail.com"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+      "modernizr": "~3.3.1",
+      "lesshat": "^3.0.2",
+      "bootstrap": "^4.0.0-alpha.6",
+  }
+}

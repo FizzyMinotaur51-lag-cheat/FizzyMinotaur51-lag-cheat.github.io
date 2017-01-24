@@ -50,7 +50,7 @@ assets/vendor/
 Gemfile.lock
 .bundle
 
-# Vagrant
+# Vagrant 
 .vagrant
 
 # Critical CSS rendered file
