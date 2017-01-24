@@ -38,8 +38,9 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, path: "provision.sh", privileged: false, binary: true
   # config.vm.provision :shell, path: "project.sh", privileged: false, binary: true
   #config.vm.provision :file, source: "~/.gitconfig", destination: ".gitconfig"
+  config.vm.provision :file, source: "~/.ssh/config", destination: "/home/vagrant/.ssh/config"
 
   # Change boot timeout
   config.vm.boot_timeout = 500
-    
+
 end
